@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <title>Starter</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <h2>Our Reviews</h2>
+      </header>
+      <section class="review">
+        <div class="review-image">
+          <img
+            id="img-people"
+            src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+            alt=""
+          />
+        </div>
+
+        <div class="review-profile">
+          <h4 id="people">Joe Doe</h4>
+          <p id="job" >Ux Designer</p>
+        </div>
+
+        <div class="description">
+          <p id="descricao">
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsam, fugiat debitis natus velit consequuntur eveniet est, libero enim magnam possimus quod? Fuga similique ratione maiores, cum quo quas nulla?
+          </p>
+        </div>
+
+        <div class="review-buttons">
+          <button id="botaoVoltar" class="prev-button" onclick="prev()">
+            <i class="ph ph-caret-left"></i>
+          </button>
+
+          <button id="botaoProximo" class="next-button" onclick="next()">
+            <i class="ph ph-caret-right"></i>
+          </button>
+        </div>
+
+        <button id="botaoSurpresa" class="random-button" onclick="random()">Surpreenda-me</button>
+      </section>
+    </main>
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
